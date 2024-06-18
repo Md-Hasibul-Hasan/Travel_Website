@@ -52,6 +52,10 @@ body{
     color: #555555;
 }
 
+.bg-dark{
+    background-color: #263238;
+}
+
 .btn{
     display: inline-block;
     padding: .5em 1.5em;
@@ -106,18 +110,18 @@ body{
 .navbar a:hover{
     border-bottom: 1px solid white;
 }
-.header .navbar .logo{
+.navbar .logo{
     float: left;
 
 
 }
 
-.header .navbar .nav-items{
+.navbar .nav-items{
     float: right;
     margin-top: 1rem;
 }
 
-.header .navbar .nav-item{
+.navbar .nav-item{
     display: inline-block;
     padding: 1rem;
     text-transform: uppercase;
@@ -254,4 +258,412 @@ h1,h2,h3{
 
 .box-3{
     background-color: #263238;
+}
+
+
+/* footer start*/
+footer{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.name {
+    font-weight: bold;
+    font-size: 40;
+    /* position: relative; */
+    /* top: 20; */
+
+
+}
+
+.text p{
+    width: 600;
+    text-align: center;
+    margin: 0px auto;
+    /* position: relative; */
+    /* top: 30; */
+
+
+
+}
+
+.icon i{
+    font-size: 45;
+    /* position: relative; */
+    /* top: 40; */
+    padding: 5px 15px;
+
+}
+
+.copy{
+    /* position: relative; */
+    /* top: 60; */
+    background-color: rgb(111, 106, 110);
+    font-size: 20;
+    height: 30;
+    line-height: 30px;
+}
+
+
+/* ######### about page ######## */
+
+
+.about{
+    padding: 5rem 0 ;
+}
+
+.about-heading{
+    border-bottom: 6px solid tomato;
+}
+
+/* ############### about wrapper ######### */
+
+
+.about-wrapper .left{
+    float: left;
+    width: 50%;
+}
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
+
+.about-wrapper{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 2em;
+}
+.about-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.about-wrapper li::before{
+    content: "\2713";
+    color: tomato;
+    font-weight: bold;
+    padding-right: 10px;
+
+}
+
+.counts{
+    /* border: 2px solid red; */
+    margin-top: 4rem;
+}
+
+.count-items{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.counts::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.count-items span{
+    font-size: 3rem;
+    font-weight: bold;
+    color: tomato;
+}
+
+
+.count-items p{
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #263238;
+}
+
+.banner{
+    color: white;
+    background-color:  tomato;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.124);
+    margin-top:20px ;
+}
+
+.banner-left{
+    width: 60%;
+    float: left;
+}
+.banner-right{
+    width: 40%;
+    float: right;
+    text-align: right;
+}  
+
+
+.banner::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.banner-left p{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: .6rem;
+}
+
+.btn-cta{
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    border: 3px solid white;
+    padding: .3rem 2.5rem;
+    letter-spacing: .5rem;
+    color: white;
+    margin-top: 0rem;
+}
+
+
+
+
+
+/* ############### contact page */
+
+
+
+.contact-form{
+    padding: 5rem 0;
+    background-color: #f7f7f7;
+}
+
+/* .form-wrapper{
+    height: 300px;
+
+} */
+
+.form-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.form-wrapper .company-address{
+    background-color: #fff;
+    /* border: 4px solid black; */
+    width: 49%;
+    float: left;
+    padding: 1rem;
+    height: 760px;
+
+}
+
+.form-wrapper .company-address i{
+    display: inline-block;
+    margin-right: 1rem;
+
+}
+
+.form-wrapper .company-address h2{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.form-wrapper .address-grp{
+    margin-bottom: 3rem;
+}
+
+.form-wrapper .company-address img{
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position: right;
+}
+
+
+/* ###################  form ############### */
+.form-wrapper .form{
+    background-color: #fff;
+    /* border: 4px solid black; */
+    width: 49%;
+    float: right;
+    font-size: 1.6rem;
+    padding: 1rem;
+    height: 760px;
+}
+
+.form h1::after{
+    content: "";
+    display: block;
+    clear: both;
+    border: 3px solid tomato;
+    width: 100%;
+}
+.form label{
+    display: block;
+}
+
+.form input{
+    padding: .5rem;
+    width: 100%;
+}
+
+.form .form-grp{
+    margin-bottom: 1.2rem;
+}
+
+.form label::after{
+    content: "*";
+    color: tomato;
+}
+
+
+.form textarea{
+    width: 100%;
+    height: 300px;
+    padding: 1rem;
+}
+
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    padding: .5rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: tomato;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+
+
+/* ##########################  responsive */
+
+@media (max-width: 1200px) {
+    .lg-heading {
+        font-size: 3rem;
+    }
+
+    .md-heading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar .nav-items {
+        float: none;
+        text-align: center;
+    }
+
+    .navbar .nav-item {
+        display: block;
+        padding: 0.5rem;
+    }
+
+    .header-content {
+        width: 90%;
+    }
+
+    .row .img-box, .row .text-box {
+        width: 100%;
+        float: none;
+    }
+
+    .row {
+        height: auto;
+    }
+
+    .features .box {
+        width: 100%;
+        float: none;
+        margin-bottom: 1rem;
+    }
+
+    .count-items {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .lg-heading {
+        font-size: 2.5rem;
+    }
+
+    .md-heading {
+        font-size: 1.8rem;
+    }
+
+    .navbar .logo {
+        text-align: center;
+        float: none;
+        margin-bottom: 1rem;
+    }
+
+    .header-content {
+        padding: 0 1rem;
+    }
+
+    .about-wrapper .left, .about-wrapper .right {
+        width: 100%;
+        float: none;
+        margin-bottom: 1rem;
+    }
+
+    .count-items {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .banner-left, .banner-right {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .banner-right {
+        margin-top: 1rem;
+    }
+
+    .form-wrapper .company-address, .form-wrapper .form {
+        width: 100%;
+        float: none;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .lg-heading {
+        font-size: 2rem;
+    }
+
+    .md-heading {
+        font-size: 1.6rem;
+    }
+
+    .navbar .nav-item {
+        padding: 0.5rem 0;
+    }
+
+    .header {
+        height: 70vh;
+    }
+
+    .header-content {
+        top: 60%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .form-wrapper .company-address img {
+        min-height: 20rem;
+    }
 }
